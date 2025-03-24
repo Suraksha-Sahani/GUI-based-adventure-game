@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -8,12 +9,12 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="761.0" prefWidth="707.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.adventure.textbasedgui.PrimaryController">
+<VBox alignment="CENTER" prefHeight="761.0" prefWidth="707.0" spacing="20.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.adventure.textbasedgui.PrimaryController">
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
    </padding>
    <children>
-      <GridPane fx:id="gridId" prefHeight="689.0" prefWidth="690.0">
+      <GridPane fx:id="gridId" alignment="CENTER" prefHeight="689.0" prefWidth="690.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -39,282 +40,453 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ImageView fx:id="iv00" fitHeight="59.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="iv00" fitHeight="59.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv10" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+            <ImageView fx:id="iv10" fitHeight="59.0" fitWidth="73.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv20" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+            <ImageView fx:id="iv20" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv30" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+            <ImageView fx:id="iv30" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv40" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+            <ImageView fx:id="iv40" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv50" fitHeight="59.0" fitWidth="68.0" layoutX="142.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+            <ImageView fx:id="iv50" fitHeight="59.0" fitWidth="68.0" layoutX="142.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv60" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+            <ImageView fx:id="iv60" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv70" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7">
+            <ImageView fx:id="iv70" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv80" fitHeight="59.0" fitWidth="68.0" layoutX="142.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8">
+            <ImageView fx:id="iv80" fitHeight="59.0" fitWidth="68.0" layoutX="142.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv90" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9">
+            <ImageView fx:id="iv90" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv01" fitHeight="59.0" fitWidth="68.0" layoutX="275.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+            <ImageView fx:id="iv01" fitHeight="59.0" fitWidth="68.0" layoutX="275.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv02" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+            <ImageView fx:id="iv02" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv03" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+            <ImageView fx:id="iv03" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv04" fitHeight="59.0" fitWidth="68.0" layoutX="409.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+            <ImageView fx:id="iv04" fitHeight="59.0" fitWidth="68.0" layoutX="409.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv05" fitHeight="59.0" fitWidth="68.0" layoutX="476.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+            <ImageView fx:id="iv05" fitHeight="59.0" fitWidth="68.0" layoutX="476.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv06" fitHeight="59.0" fitWidth="68.0" layoutX="543.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+            <ImageView fx:id="iv06" fitHeight="59.0" fitWidth="68.0" layoutX="543.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv07" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+            <ImageView fx:id="iv07" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv08" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
+            <ImageView fx:id="iv08" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv09" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="9">
+            <ImageView fx:id="iv09" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv19" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="9">
+            <ImageView fx:id="iv19" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv29" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="9">
+            <ImageView fx:id="iv29" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv39" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="9">
+            <ImageView fx:id="iv39" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv49" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="9">
+            <ImageView fx:id="iv49" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv59" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="9">
+            <ImageView fx:id="iv59" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv69" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="9">
+            <ImageView fx:id="iv69" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv79" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="9">
+            <ImageView fx:id="iv79" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv89" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="9">
+            <ImageView fx:id="iv89" fitHeight="59.0" fitWidth="68.0" layoutX="10.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv99" fitHeight="73.0" fitWidth="69.0" layoutX="10.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="9" />
-            <ImageView fx:id="iv91" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="1">
+            <ImageView fx:id="iv99" fitHeight="73.0" fitWidth="69.0" layoutX="10.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <effect>
+                  <InnerShadow />
+               </effect></ImageView>
+            <ImageView fx:id="iv91" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv92" fitHeight="59.0" fitWidth="68.0" layoutX="142.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="2">
+            <ImageView fx:id="iv92" fitHeight="59.0" fitWidth="68.0" layoutX="142.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv93" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="3">
+            <ImageView fx:id="iv93" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv94" fitHeight="59.0" fitWidth="68.0" layoutX="275.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="4">
+            <ImageView fx:id="iv94" fitHeight="59.0" fitWidth="68.0" layoutX="275.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv95" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="5">
+            <ImageView fx:id="iv95" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv96" fitHeight="59.0" fitWidth="68.0" layoutX="409.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="6">
+            <ImageView fx:id="iv96" fitHeight="59.0" fitWidth="68.0" layoutX="409.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv97" fitHeight="59.0" fitWidth="68.0" layoutX="476.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="7">
+            <ImageView fx:id="iv97" fitHeight="59.0" fitWidth="68.0" layoutX="476.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv98" fitHeight="59.0" fitWidth="68.0" layoutX="543.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="8">
+            <ImageView fx:id="iv98" fitHeight="59.0" fitWidth="68.0" layoutX="543.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv99" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="9">
+            <ImageView fx:id="iv99" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv31" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <ImageView fx:id="iv31" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv32" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <ImageView fx:id="iv32" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv33" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="562.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <ImageView fx:id="iv33" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="562.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv34" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <ImageView fx:id="iv34" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv35" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <ImageView fx:id="iv35" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv58" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="8">
+            <ImageView fx:id="iv58" fitHeight="59.0" fitWidth="68.0" layoutX="610.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv57" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="7">
+            <ImageView fx:id="iv57" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv56" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="6">
+            <ImageView fx:id="iv56" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv55" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="5">
+            <ImageView fx:id="iv55" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv54" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="4">
+            <ImageView fx:id="iv54" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv53" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="3">
+            <ImageView fx:id="iv53" fitHeight="59.0" fitWidth="68.0" layoutX="208.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv63" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="3">
+            <ImageView fx:id="iv63" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv73" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="3">
+            <ImageView fx:id="iv73" fitHeight="59.0" fitWidth="68.0" layoutX="342.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv86" fitHeight="59.0" fitWidth="68.0" layoutX="409.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="6">
+            <ImageView fx:id="iv86" fitHeight="59.0" fitWidth="68.0" layoutX="409.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="iv76" fitHeight="59.0" fitWidth="68.0" layoutX="476.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="6">
+            <ImageView fx:id="iv76" fitHeight="59.0" fitWidth="68.0" layoutX="476.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-brick.jpg" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="ivQues" fitHeight="59.0" fitWidth="68.0" layoutX="543.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
+            <ImageView fx:id="ivQues" fitHeight="59.0" fitWidth="68.0" layoutX="543.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-question.png" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="ivPlayer" fitHeight="50.0" fitWidth="72.0" layoutX="476.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+            <ImageView fx:id="ivPlayer" fitHeight="50.0" fitWidth="72.0" layoutX="476.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-icon.png" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fx:id="ivPipe" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="8">
+            <ImageView fx:id="ivPipe" fitHeight="59.0" fitWidth="68.0" layoutX="76.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/mario-pipe1.png" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="ivWinner" fitHeight="365.0" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <ImageView fx:id="ivWinner" fitHeight="231.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <effect>
+                  <InnerShadow />
+               </effect></ImageView>
+            <ImageView fx:id="ivWinner" fitHeight="365.0" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../../../images/winner.png" />
                </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
             </ImageView>
          </children>
       </GridPane>

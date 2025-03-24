@@ -124,13 +124,13 @@ public class PrimaryController {
     @FXML
     private ImageView ivPlayer, ivWinner, ivPipe, ivQues;
 
-    private GameLogic gameLogic;
+    private GameBoard gameLogic;
 
     private final Set<ImageView> wallBricks = new HashSet<>();
 
     public void initialize() {
         gridId.setFocusTraversable(true);
-        gameLogic = new GameLogic(gridId, ivPlayer, ivWinner, ivPipe, ivQues, this);
+        gameLogic = new GameBoard(gridId, ivPlayer, ivWinner, ivPipe, ivQues, this);
         gridId.setOnKeyPressed(this::handleKeyPress);
         initializeObstacles();
     }
@@ -166,6 +166,7 @@ public class PrimaryController {
 
     }
 
+    @FXML
     public void handleKeyPress(KeyEvent event) {
         gameLogic.movePlayer(event.getCode());
     }

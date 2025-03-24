@@ -12,7 +12,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
-public class GameLogic {
+public class GameBoard {
 
     private final GridPane grid;
     private final ImageView player, winner, pipe, questionBlock;
@@ -23,7 +23,7 @@ public class GameLogic {
     private final PrimaryController controller;
     private boolean runningState = true;
 
-    public GameLogic(GridPane grid, ImageView player, ImageView winner, ImageView pipe, ImageView questionBlock, PrimaryController controller) {
+    public GameBoard(GridPane grid, ImageView player, ImageView winner, ImageView pipe, ImageView questionBlock, PrimaryController controller) {
         this.grid = grid;
         this.player = player;
         this.winner = winner;
@@ -36,7 +36,7 @@ public class GameLogic {
     public void movePlayer(KeyCode keyCode) {
 
         if (!runningState) {
-            return; // Don't allow movement if the game is won or over
+            return;
         }
         int newColumn = playerX; // X-axis (left to right)
         int newRow = playerY;    // Y-axis (top to bottom)
@@ -55,11 +55,8 @@ public class GameLogic {
                 newColumn++; // Move RIGHT
                 break;
             default:
-                System.out.println("Invalid command! \n"
-                        + "Use (W A S D) for player move.");
+                showInavlidInput();
         }
-
-        System.out.println("Attempting to Move To: " + newColumn + ", " + newRow);
 
         // Check if player collects the '?' block
         if (newColumn == GridPane.getColumnIndex(questionBlock) && newRow == GridPane.getRowIndex(questionBlock)) {
@@ -137,6 +134,15 @@ public class GameLogic {
         alert.setTitle("Collision Detected!");
         alert.setHeaderText(null);
         alert.setContentText("You hit a wall! Try another direction.");
+        alert.showAndWait();
+    }
+
+    private void showInavlidInput() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Invalid Input!");
+        alert.setHeaderText(null);
+        alert.setContentText("Invalid command! \n"
+                + "Use (W A S D) for player move.");
         alert.showAndWait();
     }
 
